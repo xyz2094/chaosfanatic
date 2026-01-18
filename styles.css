@@ -1,24 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&family=Metal+Mania&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap");
 
-@media (max-width: 400px) {
-  .links {
-    grid-template-columns: repeat(4, auto); /* Mantém 4 colunas */
-    gap: 8px; /* Diminui o espaço entre os ícones */
-  }
-
-  h1 {
-    font-size: 2.5rem; /* Diminui um pouco o título principal */
-  }
-}
-
 body {
-  background-image: url(images/bg.gif); /* */
-  background-repeat: no-repeat; /* */
-  background-size: cover; /* */
-  color: #eee6d9; /* */
-  font-family: "Libertinus Serif Display", system-ui; /* */
+  background-image: url(images/bg.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #eee6d9;
+  font-family: "Libertinus Serif Display", system-ui;
   display: flex;
-  flex-direction: column; /* Alinha os itens verticalmente */
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -30,7 +18,6 @@ body {
   position: relative;
   max-width: 400px;
   width: 90%;
-  padding: 20px;
 }
 
 h1 {
