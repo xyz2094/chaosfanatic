@@ -82,12 +82,3 @@ h2 a:hover {
 .links a:hover {
   transform: scale(1.1);
 }
-
-footer {
-  width: 100%;
-  text-align: center;
-  color: #eee6d9; /* */
-  font-size: 0.8rem; /* */
-  padding: 20px 10px; /* Adiciona um espaço interno para não colar no fim da tela */
-  margin-top: 20px; /* Garante uma distância mínima dos ícones */
-}
